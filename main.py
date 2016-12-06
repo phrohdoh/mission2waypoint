@@ -39,4 +39,5 @@ output_str = "QGC WPL 110\r\n" + item_to_string(home)
 for item in json_data["items"]:
     output_str += item_to_string(item)
 
+output_str = output_str.strip() + "\r\n" # add back the final newline
 print(output_str)
