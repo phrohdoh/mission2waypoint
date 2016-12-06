@@ -20,7 +20,7 @@ def item_to_string(obj):
 args = sys.argv[1:]
 
 if not args:
-    print("Please provide the path to a `.mission` (json) file from QGroundCommand")
+    print("Please provide the path to a `.mission` (json) file from QGroundControl")
     sys.exit(1)
 
 mission_path = args[0]

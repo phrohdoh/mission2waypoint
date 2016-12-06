@@ -1,6 +1,6 @@
 # `mission2waypoint`
 
-### Convert a QGroundCommand `.mission` to a `.mavlink`
+### Convert a QGroundControl `.mission` to a `.mavlink`
 
 ## LICENSE
 
